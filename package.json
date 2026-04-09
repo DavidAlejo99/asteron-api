@@ -1,18 +1,18 @@
 {
   "name": "asteron-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "REST API para el proyecto Asteron 2.0 - SENA",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "dotenv": "^17.4.1",
-    "express": "^5.2.1",
-    "mysql2": "^3.20.0"
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mysql2": "^3.0.0"
   }
 }
